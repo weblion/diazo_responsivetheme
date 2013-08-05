@@ -1,0 +1,12 @@
+include *.py
+include *.txt
+recursive-include plonetheme *.cfg
+recursive-include plonetheme *.css
+recursive-include plonetheme *.html
+recursive-include plonetheme *.ico
+recursive-include plonetheme *.js
+recursive-include plonetheme *.png
+recursive-include plonetheme *.pyc
+recursive-include plonetheme *.svg
+recursive-include plonetheme *.xml
+recursive-include plonetheme *.zcml

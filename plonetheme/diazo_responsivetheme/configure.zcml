@@ -1,0 +1,19 @@
+<configure
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+
+    <genericsetup:registerProfile
+        name="default"
+        description="collective.responsivetheme reimplemented with Diazo."
+        directory="profiles/default"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        title="Diazo theme-port of collective.responsivetheme theme"
+        />
+
+    <plone:static
+        directory="theme"
+        type="theme"
+        />
+
+</configure>
