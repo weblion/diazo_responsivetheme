@@ -245,6 +245,7 @@
         position: absolute;
         top: 15px !important;
         display: inline-block;
+        width: 60%;
         }
    #portal-logo {
        clear: both !important;
