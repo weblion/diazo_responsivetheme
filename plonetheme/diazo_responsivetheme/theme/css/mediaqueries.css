@@ -188,7 +188,8 @@
         float: left;
         margin: 0;
     }
-
+    
+    div#portal-columns { width: 99%; }
  
 } /*  * END 600px and below  * */
 

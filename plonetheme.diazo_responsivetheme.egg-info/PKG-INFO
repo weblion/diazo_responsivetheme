@@ -1,4 +1,4 @@
-Metadata-Version: 1.0
+Metadata-Version: 1.1
 Name: plonetheme.diazo-responsivetheme
 Version: 0.0.1
 Summary: collective.responsivetheme reimplemented with Diazo.
@@ -7,7 +7,7 @@ Author: Rob Porter
 Author-email: robzonenet@gmail.com
 License: GPL2
 Description: plonetheme.diazo_responsivetheme
-        =========================
+        ================================
         
         This is collective.responsivetheme reimplemented with Diazo.
         
@@ -16,17 +16,7 @@ Description: plonetheme.diazo_responsivetheme
         Changelog
         =========
         
-        0.0.3 (2013-06-29)
-        ------------------
-        
-        - Fix spinner.gif/contenttypes_sprite.png. Use relative URLs for lack of a better option.
-        
-        0.0.2 (2013-06-19)
-        ------------------
-        
-        - Fix TinyMCE
-        
-        0.0.1 (2013-06-19)
+        0.0.1 (2013-08-05)
         ------------------
         
         - Initial implementation

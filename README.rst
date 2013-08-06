@@ -1,5 +1,5 @@
 plonetheme.diazo_responsivetheme
-=========================
+================================
 
 This is collective.responsivetheme reimplemented with Diazo.
 
