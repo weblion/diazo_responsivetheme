@@ -57,8 +57,7 @@ function below_600(){
 $(document).ready(function() {
     // we need to get to the javascript variables that are created by pyton so we can't use the html file since it puts in the ++theme++ stuff
     $("head").append('<script type="text/javascript" src="./portal_javascripts/Sunburst%20Theme/plone_javascript_variables.js"></script>');
-    $("head").append('<script type="text/javascript" src="++resource++jsi18n.js"></script> ');
-         // add a div around globalnav
+      // add a div around globalnav
         $('ul#portal-globalnav').wrap('<div class="nav-primary" />');
         if ( $(".navigation-button").length == 0 ) {
             below_600();
