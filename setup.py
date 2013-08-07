@@ -26,6 +26,12 @@ setup(
     ],
     packages=find_packages(),
     url="",
-    version="0.0.1",
+    version="1.0",
     zip_safe=False,
+    install_requires=[
+          'setuptools',
+          'plone.app.theming',
+          'jarn.jsi18n',
+          # -*- Extra requirements: -*-
+      ],
 )

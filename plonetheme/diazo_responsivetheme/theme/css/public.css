@@ -189,10 +189,9 @@ sub {
     float: right;
     text-align: left;
     clear: right;
-    margin: 1.2em 0;
+    margin: 2.3em 0 1.2em;
     font-size: 80%;
 }
-
 #portal-searchbox form {
     white-space: nowrap;
 }

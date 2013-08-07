@@ -1,8 +1,10 @@
 <configure
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    xmlns:plone="http://namespaces.plone.org/plone">
-
-
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="plonetheme.diazo_responsivetheme">
+    
+    <i18n:registerTranslations directory="locales" />
     <genericsetup:registerProfile
         name="default"
         description="collective.responsivetheme reimplemented with Diazo."
@@ -15,5 +17,15 @@
         directory="theme"
         type="theme"
         />
+        
+    <genericsetup:upgradeStep
+      sortkey="1"
+      source="1"
+      destination="2"
+      title="Installs jarn.jsi18n"
+      description="Installs jarn.jsi18n as a dependency for i18n in JavaScript"
+      profile="plonetheme.diazo_responsivetheme:default"
+      handler=".upgrades.v1_to_v2"
+    />
 
 </configure>

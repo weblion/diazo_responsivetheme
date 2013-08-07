@@ -14,8 +14,8 @@ function below_600(){
       if(window.location.hash != '#portal-globalnav') {
         if ($(window).width() < 600) {
             // i18n
-            jarn.i18n.loadCatalog('collective.responsivetheme');
-            _ = jarn.i18n.MessageFactory('collective.responsivetheme');
+            jarn.i18n.loadCatalog('plonetheme.diazo_responsivetheme');
+            _ = jarn.i18n.MessageFactory('plonetheme.diazo_responsivetheme');
             var showNavigationLabel = _('Show Navigation');
             var hideNavigationLabel = _('Hide Navigation');
             
@@ -55,6 +55,9 @@ function below_600(){
 }
 
 $(document).ready(function() {
+    // we need to get to the javascript variables that are created by pyton so we can't use the html file since it puts in the ++theme++ stuff
+    $("head").append('<script type="text/javascript" src="./portal_javascripts/Sunburst%20Theme/plone_javascript_variables.js"></script>');
+    $("head").append('<script type="text/javascript" src="++resource++jsi18n.js"></script> ');
          // add a div around globalnav
         $('ul#portal-globalnav').wrap('<div class="nav-primary" />');
         if ( $(".navigation-button").length == 0 ) {
@@ -82,3 +85,5 @@ $(document).ready(function() {
    
 
 });
+
+

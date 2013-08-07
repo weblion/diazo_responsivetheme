@@ -190,6 +190,7 @@
     }
     
     div#portal-columns { width: 99%; }
+    #visual-portal-wrapper { width: 99% !important;}
  
 } /*  * END 600px and below  * */
 
