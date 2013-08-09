@@ -6,20 +6,18 @@ Changes made by Rob Porter - WebLion
 Last Updated: April 2012
 
 Changes made by Jochen Dekeyser 
-Last Upaged: August 6, 2013
+Last Updated: August 6, 2013
 */
 
 function below_600(){
       // on load add the li if less than 600 px wide and the nav-menu class
       if(window.location.hash != '#portal-globalnav') {
         if ($(window).width() < 600) {
-            // i18n
-            jarn.i18n.loadCatalog('plonetheme.diazo_responsivetheme');
-            _ = jarn.i18n.MessageFactory('plonetheme.diazo_responsivetheme');
+
             var showNavigationLabel = _('Show Navigation');
             var hideNavigationLabel = _('Hide Navigation');
             // alert("showNavigationLabel=" + showNavigationLabel + ", hideNavigationLabel=" + hideNavigationLabel);
-            //$("#portal-globalnav").prepend('<li class="navigation-pulldown">Navigation</li>');
+            
             
             // always show right Navigation label for button, even in rare situations:
             // e.g. expand the mobile menu, enlarge the browser so the mobile menu disappears,
@@ -57,6 +55,9 @@ function below_600(){
 $(document).ready(function() {
     // we need to get to the javascript variables that are created by pyton so we can't use the html file since it puts in the ++theme++ stuff
     $("head").append('<script type="text/javascript" src="./portal_javascripts/Sunburst%20Theme/plone_javascript_variables.js"></script>');
+                // i18n
+            jarn.i18n.loadCatalog('plonetheme.diazo_responsivetheme');
+            _ = jarn.i18n.MessageFactory('plonetheme.diazo_responsivetheme');
       // add a div around globalnav
         $('ul#portal-globalnav').wrap('<div class="nav-primary" />');
         if ( $(".navigation-button").length == 0 ) {
