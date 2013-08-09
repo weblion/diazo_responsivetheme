@@ -3,6 +3,7 @@
     xmlns:css="http://namespaces.plone.org/diazo/css">
 
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
+    <copy attributes="lang" css:theme="html" css:content="html" />
 
     <replace css:theme="html head title" css:content="html head title" />
     <replace css:theme="html head base" css:content="html head base" />

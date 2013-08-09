@@ -18,7 +18,7 @@ function below_600(){
             _ = jarn.i18n.MessageFactory('plonetheme.diazo_responsivetheme');
             var showNavigationLabel = _('Show Navigation');
             var hideNavigationLabel = _('Hide Navigation');
-            
+            // alert("showNavigationLabel=" + showNavigationLabel + ", hideNavigationLabel=" + hideNavigationLabel);
             //$("#portal-globalnav").prepend('<li class="navigation-pulldown">Navigation</li>');
             
             // always show right Navigation label for button, even in rare situations:
