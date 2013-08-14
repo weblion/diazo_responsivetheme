@@ -3,6 +3,6 @@
   <version>2</version>
   <dependencies>
     <dependency>profile-plone.app.theming:default</dependency>
-    <dependency>profile-jarn.jsi18n:default</dependency>
+    <dependency>profile-kreagroup.jsi18n:default</dependency>
   </dependencies>
 </metadata>

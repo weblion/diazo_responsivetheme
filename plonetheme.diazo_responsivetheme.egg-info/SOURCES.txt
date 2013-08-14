@@ -68,7 +68,6 @@ plonetheme/diazo_responsivetheme/theme/js/jquery-integration.js
 plonetheme/diazo_responsivetheme/theme/js/jquery.highlightsearchterms.js
 plonetheme/diazo_responsivetheme/theme/js/jquery.tinymce.js
 plonetheme/diazo_responsivetheme/theme/js/js-standards.js
-plonetheme/diazo_responsivetheme/theme/js/jsi18n.js
 plonetheme/diazo_responsivetheme/theme/js/kss-bbb.js
 plonetheme/diazo_responsivetheme/theme/js/livesearch.js
 plonetheme/diazo_responsivetheme/theme/js/login.js

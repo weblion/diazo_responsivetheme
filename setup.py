@@ -31,7 +31,7 @@ setup(
     install_requires=[
           'setuptools',
           'plone.app.theming',
-          'jarn.jsi18n',
+          'kreagroup.jsi18n',
           # -*- Extra requirements: -*-
       ],
 )
