@@ -25,7 +25,7 @@ setup(
         'plonetheme',
     ],
     packages=find_packages(),
-    url="",
+    url="http://github.com/weblion/diazo_responsivetheme",
     version="1.1",
     zip_safe=False,
     install_requires=[
@@ -34,4 +34,5 @@ setup(
           'kreagroup.jsi18n',
           # -*- Extra requirements: -*-
       ],
+    setup_requires = [ "setuptools_git >= 0.3", ],
 )

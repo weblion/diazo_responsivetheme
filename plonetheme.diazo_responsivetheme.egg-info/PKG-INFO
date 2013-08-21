@@ -1,8 +1,8 @@
 Metadata-Version: 1.0
 Name: plonetheme.diazo-responsivetheme
-Version: 1.0
+Version: 1.1
 Summary: collective.responsivetheme reimplemented with Diazo.
-Home-page: UNKNOWN
+Home-page: http://github.com/weblion/diazo_responsivetheme
 Author: Rob Porter
 Author-email: robzonenet@gmail.com
 License: GPL2
@@ -15,7 +15,12 @@ Description: plonetheme.diazo_responsivetheme
         
         Changelog
         =========
-        1.0 (2012-08-06)
+        
+        1.1 (2013-08-21)
+        ----------------
+        - Setuptools wasn't set up for GIT so it was skipping files
+        
+        1.0 (2013-08-06)
         ----------------
         - Added i18n support for the UI: translation for "Show Navigation" and "Hide navigation" in Dutch and French. [kysr]
         

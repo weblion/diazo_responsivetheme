@@ -1,6 +1,8 @@
 HISTORY.txt
-MANIFEST.in
+README.rst
 setup.py
+dist/plonetheme.diazo_responsivetheme-0.0.1.tar.gz
+dist/plonetheme.diazo_responsivetheme-0.0.1.zip
 plonetheme/__init__.py
 plonetheme/__init__.pyc
 plonetheme.diazo_responsivetheme.egg-info/PKG-INFO
@@ -15,7 +17,12 @@ plonetheme/diazo_responsivetheme/__init__.py
 plonetheme/diazo_responsivetheme/__init__.pyc
 plonetheme/diazo_responsivetheme/configure.zcml
 plonetheme/diazo_responsivetheme/upgrades.py
-plonetheme/diazo_responsivetheme/upgrades.pyc
+plonetheme/diazo_responsivetheme/locales/README.txt
+plonetheme/diazo_responsivetheme/locales/plonetheme.diazo_responsivetheme.pot
+plonetheme/diazo_responsivetheme/locales/es/LC_MESSAGES/plonetheme.diazo_responsivetheme.mo
+plonetheme/diazo_responsivetheme/locales/es/LC_MESSAGES/plonetheme.diazo_responsivetheme.po
+plonetheme/diazo_responsivetheme/locales/fr/LC_MESSAGES/plonetheme.diazo_responsivetheme.po
+plonetheme/diazo_responsivetheme/locales/nl/LC_MESSAGES/plonetheme.diazo_responsivetheme.po
 plonetheme/diazo_responsivetheme/profiles/default/metadata.xml
 plonetheme/diazo_responsivetheme/profiles/default/theme.xml
 plonetheme/diazo_responsivetheme/theme/index.html

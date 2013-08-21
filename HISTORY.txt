@@ -1,5 +1,9 @@
 Changelog
 =========
+1.2 (2013-08-21)
+----------------
+- Setuptools wasn't set up for GIT so it was skipping files. Deleted the MANIFEST.in and installed setuptools_git. This seemed to work
+
 1.1 (2013-08-21)
 ----------------
 - Setuptools wasn't set up for GIT so it was skipping files
