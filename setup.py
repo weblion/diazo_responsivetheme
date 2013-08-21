@@ -26,7 +26,7 @@ setup(
     ],
     packages=find_packages(),
     url="",
-    version="1.0",
+    version="1.1",
     zip_safe=False,
     install_requires=[
           'setuptools',
